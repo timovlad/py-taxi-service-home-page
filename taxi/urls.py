@@ -4,5 +4,5 @@ from . import views
 app_name = 'taxi'
 
 urlpatterns = [
-    path('', views.index, name='index'),  # Путь для домашней страницы
+    path('', views.index, name='index'),  # start page
 ]
