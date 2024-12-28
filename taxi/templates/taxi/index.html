@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home - Taxi Service</title>
-</head>
-<body>
-    <h1>Welcome to the Taxi Service Home Page</h1>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+	<h2> Taxi Service Home Page</h2>
+		<ul>
+			<li>Number of manufacturers : {{ num_manufacturers }}</li>
+			<li>Number of cars: {{ num_cars }}</li>
+			<li>Number of drivers : {{ num_drivers }}</li>
+		</ul>
+{% endblock %}
